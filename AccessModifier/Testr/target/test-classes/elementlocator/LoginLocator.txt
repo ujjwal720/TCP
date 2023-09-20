@@ -1,0 +1,6 @@
+link_login= //span[contains(text(),'Login')]
+txtbx_username = //input[@id='userEmail']
+txtbx_password = //input[@id='userPassword']
+btn_login = //input[@id='login']
+label_welcome = //p[contains(text(),'Automation Practice')]
+btn_loout=//button[contains(text(),' Sign Out ')]

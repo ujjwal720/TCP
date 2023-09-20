@@ -1,0 +1,5 @@
+txtusername = //input[@placeholder ='E-mail address']
+txtpassword = //input[@placeholder ='Password']
+btnsign = (//button[contains(text(),'Sign in')])[2]
+txt_searchbox = //input[@title='Search']
+btn_search = //div[@class='FPdoLc lJ9FBc']//input[@name='btnK']

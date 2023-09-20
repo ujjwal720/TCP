@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-30T11:47:56 IST" name="esh01 Test Suite" finished-at="2023-03-30T11:49:22 IST" duration-ms="86071">
+    <groups>
+    </groups>
+    <test started-at="2023-03-30T11:47:56 IST" name="Parallel Tests" finished-at="2023-03-30T11:49:22 IST" duration-ms="86071">
+      <class name="login.Login">
+        <test-method is-config="true" signature="suiteInitialization()[pri:0, instance:login.Login@10aa41f2]" started-at="2023-03-30T11:47:36 IST" name="suiteInitialization" finished-at="2023-03-30T11:47:56 IST" duration-ms="20361" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suiteInitialization -->
+        <test-method is-config="true" signature="resetFlag()[pri:0, instance:login.Login@10aa41f2]" started-at="2023-03-30T11:47:56 IST" name="resetFlag" finished-at="2023-03-30T11:47:56 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetFlag -->
+        <test-method signature="LoginUserProfile(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:login.Login@10aa41f2]" started-at="2023-03-30T11:47:59 IST" name="LoginUserProfile" data-provider="LoginUserProfile_Data" finished-at="2023-03-30T11:48:11 IST" duration-ms="12454" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_Login_01]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sagarpatel@yopmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Sagar@123]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Automation Practice]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginUserProfile -->
+        <test-method is-config="true" signature="reporterDataResults()[pri:0, instance:login.Login@10aa41f2]" started-at="2023-03-30T11:48:11 IST" name="reporterDataResults" finished-at="2023-03-30T11:48:12 IST" duration-ms="1061" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporterDataResults -->
+        <test-method signature="LoginUserProfile(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:login.Login@10aa41f2]" started-at="2023-03-30T11:48:12 IST" name="LoginUserProfile" data-provider="LoginUserProfile_Data" finished-at="2023-03-30T11:48:24 IST" duration-ms="11670" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_Login_02]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sagarpatel@yopmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Sagar@123]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Automation Practice]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginUserProfile -->
+        <test-method is-config="true" signature="reporterDataResults()[pri:0, instance:login.Login@10aa41f2]" started-at="2023-03-30T11:48:24 IST" name="reporterDataResults" finished-at="2023-03-30T11:48:24 IST" duration-ms="176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporterDataResults -->
+        <test-method signature="LoginUserProfile(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:login.Login@10aa41f2]" started-at="2023-03-30T11:48:24 IST" name="LoginUserProfile" data-provider="LoginUserProfile_Data" finished-at="2023-03-30T11:49:09 IST" duration-ms="44496" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_Login_03]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sagarpatel@yopmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Sagar@12]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Automation Practice]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+false And  Not Match expected [] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+false And  Not Match expected [] but found [false]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+at testsuitebase.SuiteBase.testResult(SuiteBase.java:240)
+at testsuitebase.SuiteBase.exceptionHandle(SuiteBase.java:297)
+at login.Login.LoginUserProfile(Login.java:79)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginUserProfile -->
+        <test-method is-config="true" signature="reporterDataResults()[pri:0, instance:login.Login@10aa41f2]" started-at="2023-03-30T11:49:09 IST" name="reporterDataResults" finished-at="2023-03-30T11:49:09 IST" duration-ms="332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporterDataResults -->
+        <test-method signature="LoginUserProfile(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:login.Login@10aa41f2]" started-at="2023-03-30T11:49:09 IST" name="LoginUserProfile" data-provider="LoginUserProfile_Data" finished-at="2023-03-30T11:49:21 IST" duration-ms="12117" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_Login_04]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sagarpatel@yopmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Sagar@123]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Automation Practice]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginUserProfile -->
+        <test-method is-config="true" signature="reporterDataResults()[pri:0, instance:login.Login@10aa41f2]" started-at="2023-03-30T11:49:21 IST" name="reporterDataResults" finished-at="2023-03-30T11:49:22 IST" duration-ms="1078" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporterDataResults -->
+        <test-method is-config="true" signature="stopExecution()[pri:0, instance:login.Login@10aa41f2]" started-at="2023-03-30T11:49:23 IST" name="stopExecution" finished-at="2023-03-30T11:49:23 IST" duration-ms="750" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopExecution -->
+      </class> <!-- login.Login -->
+    </test> <!-- Parallel Tests -->
+  </suite> <!-- esh01 Test Suite -->
+</testng-results>

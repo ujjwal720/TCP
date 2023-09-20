@@ -1,0 +1,12 @@
+URL = https://rahulshettyacademy.com/client/
+#Login:
+Browser = Chrome
+txtbx_username = //input[@id='userEmail']
+txtbx_password = //*[contains(@name,'password')]
+btn_login = //*[contains(@class,'btn-login')]
+
+
+#Set run configuration as local or remote
+RunConfig=local
+nodeURL= http://172.16.16.45:4444/wd/hub
+applicationName = Mesh01
